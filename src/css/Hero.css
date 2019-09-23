@@ -1,0 +1,61 @@
+
+.image-effects{
+    animation : effects 3s linear infinite;
+    backface-visibility : hidden;
+    animation-delay : 2s;
+}
+.height250{
+    height:250px;
+}
+.btnfonts{
+    background-color : #19391c !important;
+    font-size : 30px;
+}
+@keyframes effects{
+    0%{
+        transform : rotateY(0deg);
+    }
+    25%{
+        transform : rotateY(360deg);
+    }
+    50%{
+        transform : scaleX(0.9);
+    }
+    65%{
+        transform : scaleY(1.2);
+    }
+    80%{
+        transform : rotateZ(-20deg);
+    }
+    100%{
+        transform : rotateZ(10deg);
+    }
+}
+.verticalLine
+{
+    border-right: 1px solid black;
+}
+@keyframes animate{
+    0%{
+        content : "The hand that feeds us, needs your help...";
+    }
+    50%{
+        content : "A farmer is a magician who produces money from the mud."
+    }
+    100%{
+        content : "The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings."
+    }
+}
+.change-text{
+    color : #19391c !important;
+}
+.change-text::after{
+    content : '';
+    animation : animate 15s infinite;
+    justify-content : center;
+    text-align: justify;
+}
+.hrwidth{
+    background-color : #295b2b;
+    height : 2px;
+}

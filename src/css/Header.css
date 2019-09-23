@@ -1,0 +1,18 @@
+
+.nopaddingleft{
+    padding-left:0px !important;
+}
+.white-space{
+    white-space : nowrap;
+}
+.stay{
+    position : fixed;
+    top:0px;
+    z-index:100;
+    width : 100%;
+    background-image : url("../images/white.png");
+}
+.hide
+{
+    display : none;
+}

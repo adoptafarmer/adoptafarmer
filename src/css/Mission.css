@@ -1,0 +1,20 @@
+
+.lilist{
+
+}
+.lilistdeep1::before{
+    content : "☘️ "
+}
+.donorimg{
+    border : 5px solid #295b2b;
+}
+.bar{
+    height : 10px;
+    /* background-color : #295b2b; */
+    background-image : linear-gradient(to bottom right,#004d40, #c6ff00);
+    border-radius : 25px;
+    width : 0%;
+}
+.hide{
+    display : none;
+}
